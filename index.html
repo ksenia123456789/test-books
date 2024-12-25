@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Книги по тестированию</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background: linear-gradient(to bottom, #e0eafc, #cfdef3);
+        }
+        .card {
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s;
+        }
+        .card:hover {
+            transform: scale(1.05);
+        }
+        h1 {
+            font-family: 'Arial', sans-serif;
+            font-weight: bold;
+            color: white;
+            background: linear-gradient(to right, #6a11cb, #2575fc);
+            padding: 15px;
+            border-radius: 10px;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+            animation: fadeIn 2s ease-in-out;
+        }
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(-20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container mt-5">
+        <h1 class="text-center mb-4">Книги по тестированию</h1>
+        <p class="text-center">Собрание книг, которые помогут вам освоить тестирование.</p>
+        <div class="row">
+            <!-- Книга 1 -->
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="images/BOOK1.png" class="card-img-top" alt="Обложка книги">
+                    <div class="card-body">
+                        <h5 class="card-title">Святослав Куликов. Тестирование программного обеспечения</h5>
+                        <p class="card-text">Базовый курс, (3-е издание). 2024 год</p>
+                        <a href="#" class="btn btn-primary">Скачать</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Книга 2 -->
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="images/BOOK2.png" class="card-img-top" alt="Обложка книги">
+                    <div class="card-body">
+                        <h5 class="card-title">Владимир Хориков. Принципы юнит-тестирования</h5>
+                        <p class="card-text">Серия «Для профессионалов». 2021 год</p>
+                        <a href="#" class="btn btn-primary">Скачать</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Книга 3 -->
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="images/BOOK3.png" class="card-img-top" alt="Обложка книги">
+                    <div class="card-body">
+                        <h5 class="card-title">Марк Винтерингем. Тестирование веб-API</h5>
+                        <p class="card-text">Серия «Библиотека для программистов». 2024 год</p>
+                        <a href="#" class="btn btn-primary">Скачать</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="text-center">
+            <a href="archive.zip" class="btn btn-success">Скачать все книги</a>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
